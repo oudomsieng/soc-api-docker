@@ -10,5 +10,6 @@ RUN yum install -y nodejs
 RUN yum clean all
 
 RUN mkdir /usr/src/soc-api
+RUN mkdir /var/log/soc-api
 WORKDIR /usr/src/soc-api
 EXPOSE 8000
