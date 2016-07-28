@@ -12,5 +12,3 @@ RUN yum clean all
 RUN mkdir /usr/src/soc-api
 WORKDIR /usr/src/soc-api
 EXPOSE 8000
-
-CMD [ "npm", "run", "prod" ]
